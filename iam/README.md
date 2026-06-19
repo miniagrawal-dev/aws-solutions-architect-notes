@@ -115,6 +115,23 @@ This is the recommended AWS approach.
 
 ---
 
+## Architecture
+                   AWS Account
+                        |
+        --------------------------------
+        |              |              |
+      Users          Groups         Roles
+        |              |              |
+     Developer      Developers     EC2 Role
+        |              |              |
+        --------------------------------
+                        |
+                    Policies
+                        |
+         -----------------------------
+         |             |             |
+      S3 Access     EC2 Access   RDS Access
+
 ## Key Learnings
 
 * IAM controls authentication and authorization
