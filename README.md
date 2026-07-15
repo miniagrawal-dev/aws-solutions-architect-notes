@@ -191,7 +191,7 @@ Examples:
 
 ---
 
-## interview-cheatsheet.md
+## interview-prep/interview-cheatsheet.md
 
 Quick revision guide covering:
 
@@ -217,7 +217,7 @@ Production-ready AWS architectures including:
 
 ---
 
-## system-design-on-aws.md
+## interview-prep/system-design-on-aws.md
 
 Maps common System Design problems to AWS services.
 
